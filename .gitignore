@@ -68,6 +68,5 @@ typings/
 .idea/misc.xml
 .idea/modules.xml
 .idea/workspace.xml
-dataAccess/Homes.db
 /arc/
 .idea/
