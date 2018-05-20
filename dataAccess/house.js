@@ -93,7 +93,7 @@ function search(searchQuery) {
                 return reject(err);
             let expired = false;
             houses.forEach((house) => {
-                if (Date.now() > house.expires)
+                if (Date.now() > house.expires) // FIXME: this should be "house.ExpireTime"
                     expired = true;
             });
             if (expired) {
